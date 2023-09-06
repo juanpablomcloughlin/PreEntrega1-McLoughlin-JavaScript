@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PreEntrega2+McLoughlin</title>
-</head>
-<body>
-    <script src="./js/main.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PreEntrega3+McLoughlin</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <img src="./images/logofulanos.webp" alt="Logo" />
+                <a href="./index.html">Inicio</a>
+                <a href="./paginaenconstruccion.html">Página en Construcción</a>
+                <div class="search">
+                <input id="buscador" type="text" placeholder="Buscar" />
+                <button id="buscar">Buscar</button>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="barra-filtros">
+                <div>
+                    <h5>Filtrar por categoría:</h5>
+                    <button class="filtroCategoria" value="vestidos">Vestidos</button>
+                    <button class="filtroCategoria" value="remerones">Remerones</button>
+                    <button class="filtroCategoria" value="maxi buzos">Maxi Buzos</button>
+                </div>
+                <div>
+                    <h5>Filtrar por edad:</h5>
+                    <button class="filtroEdad" value="adultos">Adultos</button>
+                    <button class="filtroEdad" value="kids">Kids</button>
+                </div>
+                <div>
+                    <h5>Filtrar por precio:</h5>
+                    <label for="precioMinimo">Precio Mín:</label>
+                    <input type="number" id="precioMinimo" />
+                    <label for="precioMaximo">Precio Máx:</label>
+                    <input type="number" id="precioMaximo" />
+                    <button id="filtrarPorPrecio">Filtrar por precio</button>
+                    <button id="verCarrito">Ver carrito</button>
+                </div>
+            </div>
+
+            <div>
+                <div class="oculto" id="carrito"></div>
+                <div class="finalizarCarrito">
+                    <button id="finalizarCompra">COMPRAR</button>
+                </div>
+                <div id="productos"></div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <a href="./index.html"><img src="./images/logofulanos.webp" alt="Logo"/></a>
+            <p class="p-footer">Fulanos Underwear &copy; 2023 Tu Tienda de Ropa</p>
+        </footer>
+
+        <script src="./main.js"></script>
+    </body>
 </html>
