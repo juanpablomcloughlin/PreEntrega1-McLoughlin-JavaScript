@@ -3,45 +3,50 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>PreEntrega3+McLoughlin</title>
-        <link rel="stylesheet" href="./style.css" />
+        <title>ProyectoFinal+McLoughlin</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     </head>
 
     <body>
         <header>
             <nav class="navbar">
-                <img src="./images/logofulanos.webp" alt="Logo" />
+                <a href="./index.html"><img src="./images/logofulanos.webp" alt="Logo" /></a>
                 <a href="./index.html">Inicio</a>
                 <a href="./paginaenconstruccion.html">Página en Construcción</a>
                 <div class="search">
-                <input id="buscador" type="text" placeholder="Buscar" />
+                <input id="buscador" type="text" placeholder="Buscar">
                 <button id="buscar">Buscar</button>
                 </div>
             </nav>
         </header>
 
         <main>
+            <h1>Bienvenidos a la página de Fulanos Underwear ®</h1>
             <div class="barra-filtros">
-                <div>
-                    <h5>Filtrar por categoría:</h5>
+                <div class="filtroCat">
+                    <h3>Filtrar por categoría:</h3>
                     <button class="filtroCategoria" value="vestidos">Vestidos</button>
                     <button class="filtroCategoria" value="remerones">Remerones</button>
                     <button class="filtroCategoria" value="maxi buzos">Maxi Buzos</button>
                 </div>
                 <div>
-                    <h5>Filtrar por edad:</h5>
+                    <h3>Filtrar por edad:</h3>
                     <button class="filtroEdad" value="adultos">Adultos</button>
                     <button class="filtroEdad" value="kids">Kids</button>
                 </div>
-                <div>
-                    <h5>Filtrar por precio:</h5>
+                <div class="filtroPrecio">
+                    <h3>Filtrar por precio:</h3>
                     <label for="precioMinimo">Precio Mín:</label>
                     <input type="number" id="precioMinimo" />
                     <label for="precioMaximo">Precio Máx:</label>
                     <input type="number" id="precioMaximo" />
                     <button id="filtrarPorPrecio">Filtrar por precio</button>
-                    <button id="verCarrito">Ver carrito</button>
                 </div>
+            </div>
+
+            <div class="boton-carrito">
+                <button id="verCarrito">Ver carrito</button>
             </div>
 
             <div>
@@ -58,6 +63,8 @@
             <p class="p-footer">Fulanos Underwear &copy; 2023 Tu Tienda de Ropa</p>
         </footer>
 
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
         <script src="./main.js"></script>
     </body>
 </html>

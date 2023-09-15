@@ -1,0 +1,146 @@
+[
+  {
+    "id": 123,
+    "nombre": "Maxi Buzo Sirenita",
+    "categoria": "Maxi buzos",
+    "stock": 4,
+    "precio": 7500,
+    "edad": "adultos",
+    "rutaImagen": "./images/maxibuzosirenita.jpeg"
+  },
+  {
+    "id": 133,
+    "nombre": "Maxi Buzo Gato",
+    "categoria": "Maxi buzos",
+    "stock": 2,
+    "precio": 7500,
+    "edad": "adultos",
+    "rutaImagen": "./images/maxibuzogato.jpeg"
+  },
+  {
+    "id": 143,
+    "nombre": "Maxi Buzo Bob",
+    "categoria": "Maxi buzos",
+    "stock": 1,
+    "precio": 7500,
+    "edad": "adultos",
+    "rutaImagen": "./images/maxibuzobob.jpeg"
+  },
+  {
+    "id": 213,
+    "nombre": "Maxi Buzo Stitch kids",
+    "categoria": "Maxi buzos",
+    "stock": 3,
+    "precio": 7100,
+    "edad": "kids",
+    "rutaImagen": "./images/maxibuzostitchkids.jpg"
+  },
+  {
+    "id": 223,
+    "nombre": "Maxi Buzo Angel kids",
+    "categoria": "Maxi buzos",
+    "stock": 5,
+    "precio": 7100,
+    "edad": "kids",
+    "rutaImagen": "./images/maxibuzoangelkids.jpg"
+  },
+  {
+    "id": 233,
+    "nombre": "Maxi buzo Hombre Araña kids",
+    "categoria": "Maxi buzos",
+    "stock": 2,
+    "precio": 7100,
+    "edad": "kids",
+    "rutaImagen": "./images/maxibuzohombrearaniakids.jpg"
+  },
+  {
+    "id": 313,
+    "nombre": "Remerón Mickey adulto",
+    "categoria": "Remerones",
+    "stock": 1,
+    "precio": 5500,
+    "edad": "adultos",
+    "rutaImagen": "./images/remeronmickeyadulto.jpeg"
+  },
+  {
+    "id": 323,
+    "nombre": "Remerón Silvestre adulto",
+    "categoria": "Remerones",
+    "stock": 7,
+    "precio": 5500,
+    "edad": "adultos",
+    "rutaImagen": "./images/remeronsilvestreadulto.jpeg"
+  },
+  {
+    "id": 333,
+    "nombre": "Remerón Kitty adulto",
+    "categoria": "Remerones",
+    "stock": 5,
+    "precio": 5500,
+    "edad": "adultos",
+    "rutaImagen": "./images/remeronkittyadulto.jpeg"
+  },
+  {
+    "id": 413,
+    "nombre": "Remerón Sirenita kids",
+    "categoria": "Remerones",
+    "stock": 3,
+    "precio": 4900,
+    "edad": "kids",
+    "rutaImagen": "./images/remeronsirenitakids.jpg"
+  },
+  {
+    "id": 423,
+    "nombre": "Remerón Alicia Tattoo kids",
+    "categoria": "Remerones",
+    "stock": 9,
+    "precio": 4900,
+    "edad": "kids",
+    "rutaImagen": "./images/remeronaliciatattookids.jpg"
+  },
+  {
+    "id": 433,
+    "nombre": "Remeron Bugs Bunny kids",
+    "categoria": "Remerones",
+    "stock": 2,
+    "precio": 4900,
+    "edad": "kids",
+    "rutaImagen": "./images/remeronbugsbunnykids.jpg"
+  },
+  {
+    "id": 513,
+    "nombre": "Vestido Stitch+Angel",
+    "categoria": "Vestidos",
+    "stock": 6,
+    "precio": 5400,
+    "edad": "adultos",
+    "rutaImagen": "./images/vestidostitch+angel.jpeg"
+  },
+  {
+    "id": 523,
+    "nombre": "Vestido Cruella",
+    "categoria": "Vestidos",
+    "stock": 5,
+    "precio": 5400,
+    "edad": "adultos",
+    "rutaImagen": "./images/vestidocruella.jpeg"
+  },
+  {
+    "id": 533,
+    "nombre": "Vestido Pato Lucas",
+    "categoria": "Vestidos",
+    "stock": 4,
+    "precio": 5400,
+    "edad": "adultos",
+    "rutaImagen": "./images/vestidopatolucas.jpg"
+  },
+  {
+    "id": 613,
+    "nombre": "Vestido Bob kids",
+    "categoria": "Vestidos",
+    "stock": 2,
+    "precio": 4800,
+    "edad": "kids",
+    "rutaImagen": "./images/vestidobobkids.jpg"
+  }
+]
